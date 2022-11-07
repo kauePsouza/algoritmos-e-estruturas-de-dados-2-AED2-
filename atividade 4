@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main ()
+
+{
+  int VtoB, VtoN, VtoV, VtoT, 
+
+   printf("Digite a quantidade total de votos");
+scanf("%d, &VtoT);
+
+printf("Digite a quantidade de votos brancos");
+scanf("%d, &VtoB);
+
+printf("Digite a quantidade de votos nulos");
+scanf("%d, &VtoN);
+
+printf("Digite a quantidade total de votos válidos");
+scanf("%d, &VtoV);
+
+VtoV = (VtoV/VtoT) * 100;
+VtoN = (VtoN/VtoT) * 100;
+VtoB = (VtoB/VtoT) * 100;
+
+printf ("A quantidade total de votos foi: %d \n A quantidade total de votos válidos foi: %d \n A quantidade de votos brancos e nulos foi de : %d e %d respectivamente ", VtoT, VtoV, VtoB, VtoN);
+}
