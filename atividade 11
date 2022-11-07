@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main () {
+	
+int	M;
+float v;
+	
+printf("Digite a quantidade de Macas: ");
+scanf("%d", &M);
+
+if(M < 12)
+v = M*1.30;
+else
+v = M;
+printf("\nValor = %.1f reais", v);
+
+	
+}
