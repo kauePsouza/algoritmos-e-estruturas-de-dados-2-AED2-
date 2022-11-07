@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int entre (char x) {
+    int ret = 0;
+    if(x > 'a' && x < 'z')
+    ret = 1;
+    return ret;
+}
+
+
+int main()
+{
+int ret;
+char x;
+scanf("%c", &x);
+ret = entre(x);
+if(ret == 1)
+printf("Esta entre a e z");
+else
+printf("Nao esta entre a e z");
+}
