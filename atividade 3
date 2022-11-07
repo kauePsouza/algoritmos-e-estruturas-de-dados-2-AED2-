@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main ()
+
+{
+  int CV, TV, SFX, VC, SF;
+
+   printf("Digite a quantidade de carros vendidos: ");
+scanf("%d, &CV);
+
+printf("Digite o valor total de vendas: ");
+scanf("%d, &TV);
+
+printf("Digite o salário fixo: ");
+scanf("%d, &SFX);
+
+printf("Digite a porcentagem recebida por carro vendido");
+scanf("%d, &VC);
+
+SF = (TV * 0.05) + SFX + (VC *CV);
+
+printf ("O salário total do vendedor é de %d", SF);
+
+}
